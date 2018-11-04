@@ -2,3 +2,27 @@
     margin: 0;
     padding: 0;
 }
+
+
+html{
+    font-size: 10px;
+    font-family: arial, sans-serif;
+}
+
+
+header{
+
+
+    height: 60vh;
+    background-image: url(pics/car-repair-362150_640.jpg);
+    background-size:   cover;
+
+
+}
+
+header h1 {
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    line-height: 60vh;
+}
