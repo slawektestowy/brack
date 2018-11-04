@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico&subset=latin-ext');
 *{
     margin: 0;
     padding: 0;
@@ -9,7 +10,34 @@ html{
     font-family: arial, sans-serif;
 }
 
+nav{
+    max-width: 1000px;
+    text-align: right;
+    margin: 10px auto;
+    padding-right: 140px;
+}
 
+nav a {
+    display: inline-block;
+    font-family: 'Pacifico', cursive;
+    font-size: 2rem;
+    padding: 10px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+/*    text-align: right;*/
+}
+
+nav a.reservation{
+    border: 3px solid red;
+
+}
+nav a:hover{
+    border-bottom: 3px solid red;
+}
+nav a.reservation:hover{
+    background-color: black;
+    color: white;
+}
 header{
 
 
