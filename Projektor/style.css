@@ -3,3 +3,44 @@
     margin: 0;
 
 }
+
+
+html{
+
+    font-family: arial, sans-serif;
+}
+
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+header div {
+
+    width: 20%;
+    height: 150px;
+    margin: 2.5%;
+    background-color: royalblue;
+    float: left;
+}
+
+header div:nth-child(1){
+    background-color: chartreuse;
+}
+
+header div:nth-child(2){
+    background-color: orange;
+}
+header div:nth-child(3){
+    background-color: yellow;
+}
+header div:nth-child(4){
+    background-color: darkviolet;
+}
+
+
+nav{
+    background-color: black;
+    height: 50px;
+}
